@@ -1,10 +1,12 @@
-const CACHE_NAME = 'case-tracker-v1';
+const CACHE_NAME = 'case-tracker-v2';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './apple-touch-icon.png',
+  './favicon.png'
 ];
 
 self.addEventListener('install', e => {
